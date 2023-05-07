@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f09053;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    width: 80vw;
+    height: 10vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',Arial,sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+form{
+    background-color: rgba(192, 192, 192, 0.7);
+    width: 95vw;
+    height: 470vh;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-top: 1px;
+}
+fieldset{
+    border: 2px solid;
+    border-color: rgb(255,255,255);
+    margin: 35px;
+    padding: 15px;
+    border-radius: 10px;
+}
+legend{
+    border: 2px solid oldlace;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+}
+.clabel{
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre;
+    font-weight: bolder;
+}
+.cinput{
+    padding: 10px;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+}
+.nric{
+    padding: 10px;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+}
+.gender_child{
+    margin: 25px;
+}
+#nationality{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+.nationality_child{
+    width: 200px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.religion_child{
+    margin-left: 30px;
+    width: 200px;
+    text-transform: uppercase;
+    margin-right: 195px;
+    border-radius: 4px;
+    padding: 2px;
+}
+.race{
+    width: 200px;
+    font-size: larger;
+    padding: 3px;
+    margin-right: 100px;
+    border-radius: 4px;
+    border: none;
+}
+.dob{
+    width: 200px;
+    margin: 20px 100px 20px 29px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+    border: none;
+    padding: 2px;
+}
+.pob, .age{
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+}
+.height{
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+}
+.weight{
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+}
+.mobile{
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+}
+.email_address{
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+}
+.license, .tax, .epf, .socso{
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+}
+.p_address{
+    font-size: 15px;
+}
+.add_input{
+    width: 400px;
+    padding: 10px;
+    margin: 5px 40px 15px 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: none;
+}
+.label_checkbox{
+    color: rgb(82, 8, 8);
+    margin-left: 60px;
+    font-size: 18px;
+}
+.ai_label{
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    white-space: pre;
+    margin: 30px;
+}
+
+.ai_child{
+    width: 100px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.ex_child{
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+tr, td, th {
+    border: 1px solid whitesmoke;
+    border-spacing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+th {
+    padding: 4px;
+    background-color:#1e1f31;
+    color: white;
+}
+.edu_input{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 180px;
+    border: 2px solid white;
+}
+.edu_input1{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 180px;
+    border-style: none;
+}
+.education {
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.org1_input{
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    padding:5px;
+}
+.org_input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    padding: 5px;
+}
+.DU_lable{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 80px;
+    margin-left: 30px;
+    white-space: normal;
+}
+
+.DUinput{
+   margin: 10px;
+    cursor: pointer;
+    
+}
+
+.termcheckbox{
+    margin-left: 50px;
+}
+
+.termfillup{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: justify;
+    margin: -18px 60px 0px 70px;
+}
+
+.btnndiv{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btnns{
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 35px;
+    background-color: #d11141;
+    font-size: 18px;
+    color: white;
+}

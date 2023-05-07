@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="applications.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="heading"><h2>APPLICATION FORM OF JOB REQUIREMENT</h2></div>
+  <div>
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="text" class="clabel">Candidate Name     :  </label>
+        <input type="text" name="fname" placeholder="First Name" required size="40" class="cinput">
+        <input type="text" name="lname" placeholder="Last Name" required size="40" class="cinput"><br>
+
+        <label for="text" class="clabel">NRIC No. /Passport No.: </label>
+        <input type="tel" name="nric" maxlength="10" class="nric" required>
+
+        <label for="text" class="clabel">Gender : </label>
+        <input type="radio" checked="checked" name="gender" value="Male" class="gender_child">Male
+        <input type="radio" checked="checked" name="gender" value="Female" class="gender_child">Female
+        <input type="radio" checked="checked" name="gender" value="Other" class="gender_child">Other
+
+
+        <label for="text" class="clabel" id="nationality">Nationality: </label>
+        <select name="nationality" class="nationality_child">
+          <option value="nationality">Malaysian</option>
+          <option value="nationality">Others</option>
+        </select><br>
+
+        <label for="text" class="clabel">Religion: </label>
+        <select name="religion" class="religion_child">
+          <option value="religion">Islam</option>
+          <option value="religion">Buddha</option>
+          <option value="religion">Cristianity</option>
+          <option value="religion">Others</option>
+        </select>
+
+        <label for="text" class="clabel">Race: </label>
+        <input type="text" name="race" class="race" required><br>
+
+        <label for="text" class="clabel">Date of Birth: </label>
+        <input type="date" name="DOB" class="dob" required>
+
+        <label for="text" class="clabel">Place of Birth: </label>
+        <input type="text" name="POB" class="pob" required>
+
+        <label for="text" class="clabel">Age: </label>
+        <input type="text" name="age" class="age" required><br>
+
+        <label for="text" class="clabel">Height: </label>
+        <input type="text" name="height" class="height" required>
+
+        <label for="text" class="clabel">Weight: </label>
+        <input type="text" name="weight" class="weight" required><br>
+
+        <label for="text" class="clabel">Mobile No: </label>
+        <input type="tel" name="mobile" maxlength="10" class="mobile" required>
+
+        <label for="text" class="clabel">Home Telephone No: </label>
+        <input type="tel" name="hometel" maxlength="10" class="mobile" required>
+
+        <label for="text" class="clabel">Email Address: </label>
+        <input type="email" name="email" required class="email_address"><br>
+
+        <label for="text" class="clabel">Driving License Class: </label>
+        <input type="text" name="license" class="license" required>
+
+        <label for="text" class="clabel">Income Tax no: </label>
+        <input type="text" name="tax" class="tax" required><br>
+
+        <label for="text" class="clabel">EPF: </label>
+        <input type="text" name="epf" class="epf" required>
+
+        <label for="text" class="clabel">Sosco No: </label>
+        <input type="text" name="sosco" class="socso" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>LANGUAGE PROFICIENCY: </legend>
+        <table>
+          <tr>
+            <th rowspan="2">Language <br> Proficiency</th>
+            <th colspan="3">Spoken</th>
+            <th colspan="3">Written<th>
+          </tr>
+
+          <tr>
+            <th>Good</th>
+            <th>Fair</th>
+            <th>Poor</th>
+            <th>Good</th>
+            <th>Fair</th>
+            <th>Poor</th>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="org1_input">Bahasa Melayu</td>
+            <td><input type="checkbox" name="name" required class="edu_input"></td>
+            <td><input type="checkbox" name="dob" required class="edu_input"></td>
+            <td><input type="checkbox" name="age" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="org1_input">English</td>
+            <td><input type="checkbox" name="name" required class="edu_input"></td>
+            <td><input type="checkbox" name="dob" required class="edu_input"></td>
+            <td><input type="checkbox" name="age" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="org1_input">Arabic</td>
+            <td><input type="checkbox" name="name" required class="edu_input"></td>
+            <td><input type="checkbox" name="dob" required class="edu_input"></td>
+            <td><input type="checkbox" name="age" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="org1_input">Mandarin</td>
+            <td><input type="checkbox" name="name" required class="edu_input"></td>
+            <td><input type="checkbox" name="dob" required class="edu_input"></td>
+            <td><input type="checkbox" name="age" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="org1_input">Tamil</td>
+            <td><input type="checkbox" name="name" required class="edu_input"></td>
+            <td><input type="checkbox" name="dob" required class="edu_input"></td>
+            <td><input type="checkbox" name="age" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="org1_input">Others</td>
+            <td><input type="checkbox" name="name" required class="edu_input"></td>
+            <td><input type="checkbox" name="dob" required class="edu_input"></td>
+            <td><input type="checkbox" name="age" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+            <td><input type="checkbox" name="education" required class="edu_input"></td>
+          </tr>
+        </table>  
+
+      </fieldset>
+      
+      <fieldset>
+        <legend>FAMILY INFORMATION :</legend>
+        <label for="text" class="clabel">SPOUSE'S FULL NAME     :  </label>
+        <input type="text" name="spouse_name" placeholder="Full Name" required size="40" class="cinput"><br>
+
+        <label for="text" class="clabel">OCCUPATION                     :  </label>
+        <input type="text" name="occupation" placeholder="Occupation" required size="40" class="cinput">
+
+        <label for="text" class="clabel">COMPANY ADDRESS        :  </label>
+        <input type="text" name="company_address" placeholder="Company Address" required size="40" class="cinput"><br>
+
+        <label for="text" class="clabel">NRIC NO.                            :  </label>
+        <input type="text" name="nric_no" placeholder="NRIC no." required size="40" class="cinput"><br>
+
+        <label for="text" class="clabel">MOBILE NO.                       :  </label>
+        <input type="text" name="mobile_no" placeholder="Mobile no." required size="40" class="cinput">
+
+        <label for="text" class="clabel">OFFICE TELEPHONE NO.   :  </label>
+        <input type="text" name="office_telephone" placeholder="Office Telephone No." required size="40" class="cinput"><br>
+
+        <label for="text" class="clabel">NO. OF CHILDREN            :  </label>
+        <input type="text" name="office_telephone" required size="40" class="cinput">
+        
+        <label for="text" class="clabel">NO. OF DEPENDENT CHILDREN   :  </label>
+        <input type="text" name="office_telephone" required size="40" class="cinput">
+
+        <Table>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Date of birth</th>
+            <th>Age </th>
+            <th>School/Education</th>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="edu_input1">1.</td>
+            <td><input type="text" name="name" required class="edu_input"></td>
+            <td><input type="text" name="dob" required class="edu_input"></td>
+            <td><input type="text" name="age" required class="edu_input"></td>
+            <td><input type="text" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="edu_input1">2.</td>
+              <td><input type="text" name="name" required class="edu_input"></td>
+              <td><input type="text" name="dob" required class="edu_input"></td>
+              <td><input type="text" name="age" required class="edu_input"></td>
+              <td><input type="text" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="edu_input1">3.</td>
+              <td><input type="text" name="name" required class="edu_input"></td>
+              <td><input type="text" name="dob" required class="edu_input"></td>
+              <td><input type="text" name="age" required class="edu_input"></td>
+              <td><input type="text" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="edu_input1">4.</td>
+              <td><input type="text" name="name" required class="edu_input"></td>
+              <td><input type="text" name="dob" required class="edu_input"></td>
+              <td><input type="text" name="age" required class="edu_input"></td>
+              <td><input type="text" name="education" required class="edu_input"></td>
+          </tr>
+        </Table>
+
+        <label for="text" class="clabel">FATHER'S FULL NAME     :  </label>
+        <input type="text" name="father_name" placeholder="Father's Full Name" required size="40" class="cinput">
+
+        <label for="text" class="clabel">OCCUPATION     :  </label>
+        <input type="text" name="occupation" placeholder="Occupation" required size="40" class="cinput"><br>
+
+        <label for="text" class="clabel">MOTHER'S FULL NAME     :  </label>
+        <input type="text" name="mother_name" placeholder="Mother's Full Name" required size="40" class="cinput">
+
+        <label for="text" class="clabel">OCCUPATION     :  </label>
+        <input type="text" name="occupation" placeholder="Occupation" required size="40" class="cinput"><br>
+
+        <label for="text" class="clabel">NO. OF SIBLING     :  </label>
+        <input type="text" name="sibling" placeholder="No. of Sibling" required size="40" class="cinput"><br>
+
+        <Table>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Occupation</th>
+            <th>Age </th>
+            <th>Company's Name</th>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="edu_input1">1.</td>
+            <td><input type="text" name="name" required class="edu_input"></td>
+            <td><input type="text" name="dob" required class="edu_input"></td>
+            <td><input type="text" name="age" required class="edu_input"></td>
+            <td><input type="text" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="edu_input1">2.</td>
+              <td><input type="text" name="name" required class="edu_input"></td>
+              <td><input type="text" name="dob" required class="edu_input"></td>
+              <td><input type="text" name="age" required class="edu_input"></td>
+              <td><input type="text" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="edu_input1">3.</td>
+              <td><input type="text" name="name" required class="edu_input"></td>
+              <td><input type="text" name="dob" required class="edu_input"></td>
+              <td><input type="text" name="age" required class="edu_input"></td>
+              <td><input type="text" name="education" required class="edu_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"name="number" class="edu_input1">4.</td>
+              <td><input type="text" name="name" required class="edu_input"></td>
+              <td><input type="text" name="dob" required class="edu_input"></td>
+              <td><input type="text" name="age" required class="edu_input"></td>
+              <td><input type="text" name="education" required class="edu_input"></td>
+          </tr>
+        </Table>
+      </fieldset>
+      
+      <fieldset>
+          <legend>ACADEMIC QUALIFICATION </legend>
+            <table>
+              <tr>
+                <th>No.</th>
+                <th>Name of School/ <br> Institution</th>
+                <th>Qualification Obtained</th>
+                <th>Year <br> (From / To )</th>
+                <th>Results</th>
+              </tr>
+
+              <tr>
+                <td><label type="text"name="number" class="edu_input1">1.</td>
+                <td><input type="text" name="Institute" required class="edu_input"></td>
+                <td><input type="text" name="Duration of Course" required class="edu_input"></td>
+                <td><input type="text" name="passing year" required class="edu_input"></td>
+                <td><input type="text" name="division" required class="edu_input"></td>
+
+              <tr>
+                <td><label type="text"name="number" class="edu_input1">2.</td>
+                <td><input type="text" name="Institute" required class="edu_input"></td>
+                <td><input type="text" name="Duration of Course" required class="edu_input"></td>
+                <td><input type="text" name="passing year" required class="edu_input"></td>
+                <td><input type="text" name="division" required class="edu_input"></td>
+
+              <tr>
+                <td><label type="text"name="number" class="edu_input1">3.</td>
+                <td><input type="text" name="Institute" required class="edu_input"></td>
+                <td><input type="text" name="Duration of Course" required class="edu_input"></td>
+                <td><input type="text" name="passing year" required class="edu_input"></td>
+                <td><input type="text" name="division" required class="edu_input"></td>
+
+              <tr>
+                <td><label type="text"name="number" class="edu_input1">4.</td>
+                <td><input type="text" name="Institute" required class="edu_input"></td>
+                <td><input type="text" name="Duration of Course" required class="edu_input"></td>
+                <td><input type="text" name="passing year" required class="edu_input"></td>
+                <td><input type="text" name="division" required class="edu_input"></td>
+              </tr>
+
+              <tr>
+                <td><label type="text"name="number" class="edu_input1">5.</td>
+                <td><input type="text" name="Institute" required class="edu_input"></td>
+                <td><input type="text" name="Duration of Course" required class="edu_input"></td>
+                <td><input type="text" name="passing year" required class="edu_input"></td>
+                <td><input type="text" name="division" required class="edu_input"></td>
+              </tr>
+
+              <tr>
+                <td><label type="text"name="number" class="edu_input1">6.</td>
+                <td><input type="text" name="Institute" required class="edu_input"></td>
+                <td><input type="text" name="Duration of Course" required class="edu_input"></td>
+                <td><input type="text" name="passing year" required class="edu_input"></td>
+                <td><input type="text" name="division" required class="edu_input"></td>
+              </tr>
+
+              <tr>
+                <td><label type="text"name="number" class="edu_input1">7.</td>
+                <td><input type="text" name="Institute" required class="edu_input"></td>
+                <td><input type="text" name="Duration of Course" required class="edu_input"></td>
+                <td><input type="text" name="passing year" required class="edu_input"></td>
+                <td><input type="text" name="division" required class="edu_input"></td>
+              </tr>
+            </table>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          EMPLOYMENT HISTORY
+        </legend>
+
+        <table>
+          <tr>
+            <th>No.</th>
+            <th>Name of Employer</th>
+            <th>From <br> (Month/Year)</th>
+            <th>To <br> (Month/Year)</th>
+            <th>Position Held</th>
+            <th>Last Drawn Salary</th>
+            <th>Reason for leaving</th>
+          </tr>
+
+          <tr>
+            <td><label type="text"  name="organization" class="org1_input">1.</td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="date"  name="date " placehoder= " DD/MM/YYYY" class="org_input"></td>
+            <td><input type="date"  name="date " placehoder= " DD/MM/YYYY" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"  name="organization" class="org1_input">2.</td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="date"  name="date " placehoder= " DD/MM/YYYY" class="org_input"></td>
+            <td><input type="date"  name="date " placehoder= " DD/MM/YYYY" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+          </tr>
+
+          <tr>
+            <td><label type="text"  name="organization" class="org1_input">3.</td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="date"  name="date " placehoder= " DD/MM/YYYY" class="org_input"></td>
+            <td><input type="date"  name="date " placehoder= " DD/MM/YYYY" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+          </tr>
+        </table>
+      </fieldset>
+      
+      <fieldset>
+        <legend>REFERENCES: </legend>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Company Name</th>
+            <th>Telephone No.</th>
+            <th>Years Known</th>
+          </tr>
+
+          <tr>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="date " class="org_input"></td>
+            <td><input type="text"  name="date " class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+          </tr>
+
+          <tr>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="date " class="org_input"></td>
+            <td><input type="text"  name="date " class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+          </tr>
+
+          <tr>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="date " class="org_input"></td>
+            <td><input type="text"  name="date " class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+            <td><input type="text"  name="designation" class="org_input"></td>
+          </tr>
+        </table>
+
+      </fieldset>
+
+      <fieldset>
+         <legend> DOCUMENT UPLOAD : </legend>
+            <label for="text" class="DU_lable">Passport Size Photo :</label>
+            <input type="file" class="DUinput" required><br>
+
+            <label for="text" class="DU_lable">Certificate :</label>
+            <input type="file" class="DUinput" required><br>
+
+            <label for="text" class="DU_lable">Testimonials :</label>
+            <input type="file" class="DUinput" required><br>
+        </fieldset>
+        
+        <fieldset>
+          <legend>SELF DECLARATION : </legend>
+              <input type="checkbox" name="checked" value="checked" required class="termcheckbox">
+              <label for="text" class="termfillup">I do hereby declare that I fulfill all the condition of eligibility prescribed
+                for admission to the requirement test. I further declare that all the statements made by me in the application form are true and 
+                complete to the best of my knowledge and belief and nothing has been concealed or suppresed. I also understand that in case, any of my
+                statements found untrue at any stage of the requirement process and thereafter. I shall be disqualified for the post applied and 
+                shall be liable for any penal action as per provision of law.
+              </label>
+        </fieldset>
+
+        <div class="btnndiv">
+          <button onclick="window.location.href='http://127.0.0.1:5500/home.html';" class="btnns" type="back" value="back">Back</button>
+          <button class="btnns" type="submit" value="submit">Submit</button>
+          <button class="btnns" type="reset" value="reset">Reset</button>
+        </div>
+
+
+    </form>
+  </div>
+</body>
+</html>
